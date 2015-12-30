@@ -50,7 +50,7 @@ public class MainActivity extends Activity {
 	
 	private void doUploadTest(){
 		String path = "/mnt/sdcard/0/test.jpg";
-		String url = "http://app.sod90.com/city52/upload/app_upload";
+		String url = "http://app.sod90.com/xxx/upload/app_upload"; //换成自己的测试url地址
 		Map<String, String> params = new HashMap<String, String>();
 		params.put("id", "19");
 		params.put("type", "shop");
